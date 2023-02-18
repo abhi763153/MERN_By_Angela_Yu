@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #C1F4C5;
+}
+.sub-container{
+    width: 70%;
+    height: 60vh;
+    /* background-color: #74959A; */
+    position: absolute;
+    top: 5%;bottom: 0;left: 0;right: 0;
+    margin: auto;
+}
+.heading{
+    width: 70%;
+    height: 19vh;
+    /* background-color: #74959A; */
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 6%;
+    text-align: center;
+    /* padding: 3% 5%; */
+}
+.heading h1 {
+    font-size: 7rem;
+    letter-spacing: 4px;
+    color: #203239;
+}
+.diceContainer{
+    width: 56%;
+    height: 40vh;
+    margin: auto;
+    position: absolute;
+    top: 0;bottom: 0;left: 0;right: 0;
+    
+}
+.dice-container1, .dice-container2{
+    width: 49%;
+    height: 40vh;
+    /* background-color: brown; */
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.player{
+    color: #203239;
+    margin-bottom: 20px;
+}
+ 
+/* for dice 6 */
+.dice6{
+    width: 200px;
+    height: 200px;
+    background-color: #203239;
+    margin: auto;
+    position: absolute;
+    left: 0;right: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    visibility: visible;
+}
+.dot{
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+    border-radius: 100%;
+    background-color: white;  
+}
+
+/* for dice 5 */
+.dice5{
+    width: 200px;
+    height: 200px;
+    background-color: #203239;
+    margin: auto;
+    position: absolute;
+    left: 0;right: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    visibility: hidden;
+}
+.dice-5-dot3{
+    width: 40px;
+    height: 40px;
+    margin: 0 64px;
+    border-radius: 100%;
+    background-color: white; 
+}
+
+/* for dice 4 */
+
+.dice4{
+    width: 200px;
+    height: 200px;
+    background-color: #203239;
+    margin: auto;
+    position: absolute;
+    left: 0;right: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    visibility: hidden;
+}
+
+/* for dice 3 */
+
+.dice3{
+    width: 200px;
+    height: 200px;
+    background-color: #203239;
+    margin: auto;
+    position: absolute;
+    left: 0;right: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    visibility: hidden;
+}
+.dot1{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    right: 20px;top: 20px;
+    border-radius: 100%;
+    background-color: white;  
+}
+.dot2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    right: 0;top: 0;left: 0;bottom: 0;
+    border-radius: 100%;
+    background-color: white;  
+}
+.dot3{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    left: 20px;bottom: 20px;
+    border-radius: 100%;
+    background-color: white;  
+}
+
+/* for dice 2 */
+.dice2{
+    width: 200px;
+    height: 200px;
+    background-color: #203239;
+    margin: auto;
+    position: absolute;
+    left: 0;right: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.dot1{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    right: 30px;top: 30px;
+    border-radius: 100%;
+    background-color: white;  
+}
+.dot3{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    left: 30px;bottom: 30px;
+    border-radius: 100%;
+    background-color: white;  
+}
+
+/* for dice 1 */
+
+.dice1{
+    width: 200px;
+    height: 200px;
+    background-color: #203239;
+    margin: auto;
+    position: absolute;
+    left: 0;right: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    visibility: hidden;
+}
+.dot2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    right: 0;top: 0;left: 0;bottom: 0;
+    border-radius: 100%;
+    background-color: white;  
+}

@@ -1,0 +1,16 @@
+{
+  "name": "intro-to-node",
+  "version": "1.0.0",
+  "description": "I am learning Nodejs and this is npm lecture.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Kumar Kamti",
+  "license": "ISC",
+  "dependencies": {
+    "marvel-dc-name-generator": "^1.1.0",
+    "superheroes": "^3.0.0",
+    "supervillains": "^3.0.0"
+  }
+}
